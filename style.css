@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: #343536;
+    }
+
+    .cabecalho {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
+    }
+
+    .start {
+        height: 120px;
+    }
+
+    .menu {
+        display: flex;
+        gap: 32px;
+    }
+
+    .menu-item {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .conteudo {
+        margin-bottom: 48px;
+        border-top: 0.4px solid #ffffff;
+    }
+
+    .conteudo-principal {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .conteudo-principal-escrito {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .conteudo-tittle {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-weight: 400;
+        font-size: 64px;
+        color: #ffffff;
+    }
+    
+    .conteudo-subtitle {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        color: #ffffff;
+    }
+
+    .rede {
+        display: flex;
+        gap: 32px;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: row;
+        width: 24px;
+    }
+
+    .imagem-principal {
+        height: 430px;  
+    }
+
+    .conteudo-secundario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin-top: 48px;
+    }
+
+    .conteudo-secundario-subtittle {
+        border-top: 0.4px solid #ffffff;
+        padding-top: 48px;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        color: #ffffff;
+        margin-bottom: 16px;
+    }
+
+    .conteudo-paragrafo {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #ffffff;
+    }
+
+    .rodape {
+        padding: 24px;
+        border-top: 0.4px solid #ffffff;
+    }
+
+    .rodape-imagem {
+        height: 20px;
+        display: block;
+        margin: 0 auto;
+
+    }
+
+    .teste {
+        margin: 0 auto;
+    }
+
+    .footer {
+        color: #FFF2E7;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-weight: 400;
+    }
